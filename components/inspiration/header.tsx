@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowLeft, Plus } from "lucide-react"
+import { ArrowLeft } from "lucide-react"
 
 export function InspirationHeader() {
   return (
@@ -14,13 +14,8 @@ export function InspirationHeader() {
           <span>Tools</span>
         </button>
 
-        <button
-          className="flex items-center gap-1 text-primary font-sans text-xs tracking-[0.2em] uppercase hover:opacity-70 transition-opacity"
-          aria-label="Add new inspiration"
-        >
-          <span>Add</span>
-          <Plus className="h-3.5 w-3.5" />
-        </button>
+        {/* Spacer for layout balance */}
+        <div className="w-12" />
       </div>
 
       <div className="mt-4 flex flex-col items-center gap-2">
